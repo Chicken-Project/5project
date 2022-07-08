@@ -1,0 +1,48 @@
+/* nav */
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-color: rgb(36, 85, 159);
+  height: 8vh;
+  font-size: 20px;
+  color: white;
+}
+
+.navbar-inverse {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-inverse .nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 3%;
+  height: 8vh;
+  background-color: rgb(36, 85, 180);
+  padding: 1%;
+  box-sizing: border-box;
+}
+
+.navbar-inverse .nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 2%;
+}
+
+.nav-right .material-symbols-outlined {
+  font-size: 35px;
+}
+
+.navbar-inverse .nav-right .nav-mail-text {
+  margin-left: 10%;
+}
