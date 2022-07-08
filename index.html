@@ -1,19 +1,15 @@
+<!DOCTYPE html>
 <html lang="ko">   
- <head>
+<head>
 <meta charset="utf-8">
-
-<link rel="stylesheet" href="style.css">
-<title>개발해조</title>
-
-
-
-
-
 <link rel="stylesheet" href="./main.css">
 <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./secondContainer.css">"
+<title>개발해조</title>
 </head>
 <body>
 <nav class="navbar-inverse">
@@ -46,7 +42,21 @@
     <div>
 
         <form>
-            <!-- 김지엽 님 코딩부분 --> 
+            <!-- 김지엽 님 코딩부분 -->
+            <div id="secondContainer">
+                <div class="contentWrapper">
+                    <div class="title">
+                        <p>자애로운 자여, 몇 명이나 먹이려고 하는고?</p>
+                    </div>
+                </div>
+                <div class="input" type="number" maxlength="8">           
+                    <input type="text" name="count">
+                    <p>명을 먹이려고 하나이다.</p>
+                </div>
+                    <div class="btn">
+                        <button class="btn-stop">정지</button>
+                    </div>
+            </div>
         </form>
 
         <form>
@@ -55,10 +65,5 @@
 
     </div>   
 
-
-
-
-
 </body>
-
-
+</html>
