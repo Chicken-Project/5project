@@ -1,0 +1,32 @@
+#panel-wrapper {
+  display :block;
+  width: 94vw;
+  height: 8vh
+}
+
+#panel-content {
+  width: 94vw;
+  height: 40vh;
+  padding-left: 10vw ;
+  padding-bottom: 10vh;
+  font-size: 200px;
+  font-family: 'Noto Sans KR', sans-serif;  
+  margin: 0;
+}
+
+#head-content {
+  padding-left: 2vw;
+}
+
+#foot-content {
+  width: 94vw;
+  height: 5vh;
+  background-color: rgb(240, 237, 237);
+  padding-top: 2vh;
+}
+  
+#f-p {
+  padding-left: 2vw;
+}
+
+
